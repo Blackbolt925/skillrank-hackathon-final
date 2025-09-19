@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pymupdf
+huggingface_hub
+transformers
+torch
+requests
+python-dotenv

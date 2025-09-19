@@ -1,0 +1,70 @@
+# ----------------------------
+# Node.js / Next.js (frontend)
+# ----------------------------
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+/coverage
+/.next/
+/out/
+/build
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment files
+.env
+.env.*
+backend/.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (frontend/backend)
+/.env
+.env.*
+.env.local
+
+# misc
+.DS_Store
+*.pem
+
+# ----------------------------
+# Python / FastAPI (backend)
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# virtual envs
+env/
+venv/
+.venv/
+ENV/
+
+# ----------------------------
+# Models / Large files
+# ----------------------------
+backend/models/
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+
+# ----------------------------
+# IDE
+# ----------------------------
+.vscode/
+.idea/
